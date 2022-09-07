@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");  /* setando fonte*/
+
+
+
+
+* {  /* resetar o html*/
+    font-family: "Outfit", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  h3 { /* config tamnho do titulo h3*/
+    font-size: 1.38rem;
+    line-height: 1.7rem;
+    color: hsl(218, 44%, 22%);
+  }
+  p { /* config tamnho do paragrafo p*/
+    font-size: 0.965rem;
+    line-height: 1.2rem;
+    color: hsl(222, 7%, 65%);
+    margin-top: 16px;
+    padding: 0 7px;
+  }
+
+  body{ /* config cor do body*/
+    background-color: hsl(212, 45%, 89%);
+  }
+
+
+  .conteiner { /* o container irá alocar o retangulo em branco que levará a imagem e o texto juntos*/
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+
+  .retangulo { /* filho do container*/
+    max-width: 353px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    padding: 16px;
+    text-align: center;
+    box-shadow: -1px 20px 25px rgb(0 0 0 / 5%);
+  }
+
+
+  .imagem { /* setando bordas e tipo*/
+    overflow: hidden;
+    border-radius: 10px;
+    max-width: 100%;
+  }
+ 
+
+  .texto{ /* espaçamentos e margem do meu texto */
+        padding: 15px 10px;
+        margin-top: 7px;
+        margin-bottom: 10px;
+      }
+  
